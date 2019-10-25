@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@types/cucumber": "^4.0.7",
     "cucumber": "^6.0.2",
+    "cucumber-assert": "^2.0.1",
     "cucumber-pretty": "^6.0.0",
     "cucumber-tsflow": "^3.2.0",
     "expect": "^24.9.0"
@@ -18,7 +20,7 @@
     "jest": "^24.9.0",
     "nodemon": "^1.19.4",
     "rimraf": "^3.0.0",
-    "selenium-webdriver": "4.0.0-alpha.1",
+    "selenium-webdriver": "^4.0.0",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
