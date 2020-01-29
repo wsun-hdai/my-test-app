@@ -26,4 +26,5 @@ class Google_Search{
         const title: string = await firefox.driver.getTitle();
         expect(title).toBe(titleMatch);
     }
+
 } export = Google_Search;
